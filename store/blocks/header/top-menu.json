@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+
     ]
   },
   "menu-item#shop": {
@@ -22,7 +21,6 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
     ]
   },
   "menu-item#vtex-website": {

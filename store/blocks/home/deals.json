@@ -19,14 +19,14 @@
   },
   "image#deal1": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "src": "https://i.ibb.co/bsQXmFW/pngfind-com-profile-icon-png-1102927.png",
       "maxHeight": "24px"
     }
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
-      "blockClass": "deals"
+      "text": "ENTRAR",
+      "blockClass": "entry"
     }
   },
   "flex-layout.col#deals2": {
@@ -37,14 +37,14 @@
   },
   "image#deal2": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "src": "https://i.ibb.co/qx36gcp/transparent-cup-icon-trop…ss-icon-5dda5307f354d3-9314900915745891919967.png",
+      "maxHeight": "42px"
     }
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
-      "blockClass": "deals"
+      "text": "DESAFIOS",
+      "blockClass": "challenge"
     }
   },
   "flex-layout.col#deals3": {
@@ -55,14 +55,14 @@
   },
   "image#deal3": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "src": "https://i.ibb.co/W6MKv0B/pngaaa-com-1172027.png",
+      "maxHeight": "32px"
     }
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
-      "blockClass": "deals"
+      "text": "LOJA",
+      "blockClass": "story"
     }
   },
   "flex-layout.col#deals4": {
@@ -73,14 +73,14 @@
   },
   "image#deal4": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "src": "https://i.ibb.co/GcW7934/toppng-com-white-whatsapp-n-256x256.png",
+      "maxHeight": "32px"
     }
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
-      "blockClass": "deals"
+      "text": "SUPORTE",
+      "blockClass": "suport"
     }
   }
 }

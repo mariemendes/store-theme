@@ -9,8 +9,8 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "flex-layout.row#3-desktop"
     ]
   },
 
@@ -22,14 +22,9 @@
   },
 
   "flex-layout.row#2-desktop": {
-    "children": ["notification.bar#home"],
+    "children": [],
     "props": {
       "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -41,9 +36,7 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "vtex.menu@2.x:menu#category-menu"
     ]
   },
   "flex-layout.col#spacer": {
@@ -68,11 +61,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
+      "flex-layout.col#spacer",
       "minicart.v2"
     ]
   },
@@ -92,7 +83,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://i.ibb.co/fMz0sK7/Captura-de-Tela-2021-08-22-a-s-11-52-58.png",
       "width": "180"
     }
   },

@@ -1,12 +1,24 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-sale",
+      "menu-item#category-corinthians",
+      "menu-item#category-palmeiras",
+      "menu-item#category-signos",
+      "menu-item#category-funny",
+      "menu-item#category-maravilhas",
+      "menu-item#category-guerreiros",
+      "menu-item#category-album-1",
+      "menu-item#category-album-2",
+      "menu-item#category-album-3"
     ]
   },
   "menu-item#category-apparel": {
@@ -19,89 +31,173 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:submenu#category-apparel": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-apparel"
-    ]
-  },
-  "vtex.menu@2.x:menu#category-apparel": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
-    ]
-  },
-  "menu-item#category-apparel-clothing": {
-    "props": {
-      "id": "menu-item-category-apparel-clothing",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/clothing/",
-        "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "sale",
+        "text": "PROMOÇÃO"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-sale": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-sale",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/sale/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "sale",
+        "text": "PROMOÇÃO"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-corinthians": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-corinthians",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/corinthians/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "corinthians",
+        "text": "CORINTHIANS"
+      }
+    }
+  },
+  "menu-item#category-palmeiras": {
+    "props": {
+      "id": "menu-item-category-palmeiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/palmeiras/",
+        "noFollow": false,
+        "tagTitle": "palmeiras",
+        "text": "PALMEIRAS"
+      }
+    }
+  },
+  "menu-item#category-signos": {
+    "props": {
+      "id": "menu-item-category-signos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/signos/",
+        "noFollow": false,
+        "tagTitle": "signos",
+        "text": "SIGNOS"
+      }
+    }
+  },
+  "menu-item#category-funny": {
+    "props": {
+      "id": "menu-item-category-funny",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/divertidos/",
+        "noFollow": false,
+        "tagTitle": "funny",
+        "text": "DIVERTIDOS"
+      }
+    }
+  },
+  "menu-item#category-maravilhas": {
+    "props": {
+      "id": "menu-item-category-maravilhas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/divertidos/",
+        "noFollow": false,
+        "tagTitle": "7 Maravilhas",
+        "text": "7 MARAVILHAS"
+      }
+    }
+  },
+  "menu-item#category-guerreiros": {
+    "props": {
+      "id": "menu-item-category-guerreiros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guerreiros/",
+        "noFollow": false,
+        "tagTitle": "guerreiros",
+        "text": "GUERREIROS"
+      }
+    }
+  },
+  "menu-item#category-album-1": {
+    "props": {
+      "id": "menu-item-category-album-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-1/",
+        "noFollow": false,
+        "tagTitle": "album 1",
+        "text": "ALBUM 1"
+      }
+    }
+  },
+  "menu-item#category-album-2": {
+    "props": {
+      "id": "menu-item-category-album-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-2/",
+        "noFollow": false,
+        "tagTitle": "album 2",
+        "text": "ALBUM 2"
+      }
+    }
+  },
+  "menu-item#category-album-3": {
+    "props": {
+      "id": "menu-item-category-album-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/album-1/",
+        "noFollow": false,
+        "tagTitle": "album 3",
+        "text": "ALBUM 3"
       }
     }
   },
   "menu-item#category-home": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-custom-sale",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "More"
       }
     }
   },
